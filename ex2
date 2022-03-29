@@ -1,0 +1,9 @@
+basic.show_string("")
+
+def on_every_interval():
+    led.unplot(2, 3)
+loops.every_interval(900, on_every_interval)
+
+def on_every_interval2():
+    led.plot(2, 3)
+loops.every_interval(700, on_every_interval2)
